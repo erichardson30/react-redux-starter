@@ -15,6 +15,7 @@ class App extends Component {
             <nav>
               <Link to='about'>About</Link>
               <Link to='login'>Login</Link>
+              <Link to='protected'>Protected</Link>
             </nav>
           </div>
         </div>
