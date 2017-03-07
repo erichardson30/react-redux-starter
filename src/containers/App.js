@@ -11,9 +11,13 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2><Link to="/">Welcome to React</Link></h2>
+          <div className="app-nav">
+            <nav>
+              <Link to='about'>About</Link>
+              <Link to='login'>Login</Link>
+            </nav>
+          </div>
         </div>
-        <Link to='about'>About</Link>
-        <Link to='login'>Login</Link>
         {this.props.children}
       </div>
     );
