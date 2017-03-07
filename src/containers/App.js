@@ -13,6 +13,7 @@ class App extends Component {
           <h2><Link to="/">Welcome to React</Link></h2>
         </div>
         <Link to='about'>About</Link>
+        <Link to='login'>Login</Link>
         {this.props.children}
       </div>
     );
