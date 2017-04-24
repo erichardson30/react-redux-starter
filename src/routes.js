@@ -22,7 +22,6 @@ export const getRoutes = (store) => {
 
   return (
     <Route path="/" component={App}>
-      <Route path="about" component={About} />
       <Route path="login" component={Login} />
       <Route path="protected" component={Protected} onEnter={authRequired} />
     </Route>
